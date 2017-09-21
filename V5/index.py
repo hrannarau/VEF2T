@@ -20,7 +20,7 @@ def index():
                 "Netfang:<br>" \
                 "<input type='email' name='email'><br>"\
                 "<h2>Pizzastærð</h2>"\
-                "<input type='radio' name='size' value='9'> 9 tomma - 1000kr<br>"\
+                "<input type='radio' name='size' value='9'checked> 9 tomma - 1000kr<br>"\
                 "<input type='radio' name='size' value='12'> 12 tomma - 1500kr<br>"\
                 "<input type='radio' name='size' value='18'> 18 tomma - 2000kr<br>" \
                 "<br>" \
