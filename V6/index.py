@@ -20,6 +20,6 @@ def send():
             write.writerow([i])
         write.writerow(splitter)
         return username+"<br>"\
-               "Thank You For Signing up!"
+               "<b>Thank You For Signing up!</b>"
 
 run(host='localhost', port=8080)
