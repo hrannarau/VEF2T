@@ -18,7 +18,7 @@ def login():
 
 @route("/post", method='POST')
 def index():
-    realusername =  'username'
+    realusername = 'username'
     realpassword = 'password'
     def check_login(a,b):
         if a == realusername and b == realpassword:
